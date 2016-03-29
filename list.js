@@ -124,3 +124,5 @@ var frameworkList=
 var list =[introList,designList,uxDesign,colorList,typeList,webList,htmlList,cssList,jsList,frameworkList];  
 
 
+
+

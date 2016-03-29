@@ -5,12 +5,12 @@
 
 .box h4{
 	font-size: 120%;
-	font-family: Consolas;
+	font-family: hind;
 }
 .box{
 	height: 55vh;
 }
-
+	
 .box:first-child ~ .box {
   border-top: 6px solid black;
   box-sizing:border-box;
@@ -22,42 +22,56 @@ header{
 	font-family: Consolas;
 }
 
+.heading h1{
+	margin: 0; 
+	font-family: hind;
+}
+
 header h1{
 	margin: 0;
 }
 
 .intro{
-	width: 50%;
+	width: 30%;
 	padding-bottom: 10px;
+	font-family: OpenSans !important;
 }
 
 .contactList li{
     display: inline !important;
 	list-style-type: none;
 	font-weight: bold;
-	font-family: Consolas;
+	font-family: OpenSans !important;
 	padding-right: 10px;
 }
 
 ul{
 	padding-left: 0;
+	margin-top: 7px;
 }
 
 
 .list li{
-	font-family: Consolas;
+	font-family: OpenSans;
+	font-size: 100%;
 	list-style-type: none;
 	width: 100% !important;
+
+}
+
+.list a{
+	text-decoration: none;
+	color: black;
 }
 
 .list li:hover{
-  background-color: pink;
+  background-color: lightgrey;
 }
 
 .line{
-	border-top: 5px solid pink;
+	border-top: 5px solid lightgrey;
 	width: 30%;
-	margin-top: 5vh;
+	margin-top: 3vh;
 }
 
 footer{
@@ -65,6 +79,7 @@ footer{
 	font-size: 200%;
 	height: 15vh;
 	outline: 2px solid lightgrey;
+	font-family: hind;
 }
 
 footer li{
@@ -74,4 +89,14 @@ footer li{
 @font-face {
     font-family: Consolas;
     src: url(Consolas.ttf);
+}
+
+@font-face {
+    font-family: hind;
+    src: url(Hind-Regular.ttf);
+}
+
+@font-face{
+	font-family: OpenSans;
+	src: url(OpenSans-Regular);
 }
