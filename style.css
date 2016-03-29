@@ -1,0 +1,77 @@
+[class*='col-'] {
+  /*background-color: #FFDCDC;*/
+  overflow: hidden;
+}
+
+.box h4{
+	font-size: 120%;
+	font-family: Consolas;
+}
+.box{
+	height: 55vh;
+}
+
+.box:first-child ~ .box {
+  border-top: 6px solid black;
+  box-sizing:border-box;
+}
+
+header{
+	margin-bottom: 8vh;
+	font-size: 200%;
+	font-family: Consolas;
+}
+
+header h1{
+	margin: 0;
+}
+
+.intro{
+	width: 50%;
+	padding-bottom: 10px;
+}
+
+.contactList li{
+    display: inline !important;
+	list-style-type: none;
+	font-weight: bold;
+	font-family: Consolas;
+	padding-right: 10px;
+}
+
+ul{
+	padding-left: 0;
+}
+
+
+.list li{
+	font-family: Consolas;
+	list-style-type: none;
+	width: 100% !important;
+}
+
+.list li:hover{
+  background-color: pink;
+}
+
+.line{
+	border-top: 5px solid pink;
+	width: 30%;
+	margin-top: 5vh;
+}
+
+footer{
+	text-align: center;
+	font-size: 200%;
+	height: 15vh;
+	outline: 2px solid lightgrey;
+}
+
+footer li{
+	font-size: 50% !important;
+}
+
+@font-face {
+    font-family: Consolas;
+    src: url(Consolas.ttf);
+}
