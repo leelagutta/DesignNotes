@@ -1,26 +1,24 @@
 var introList=
-'<div class="intro">This is a list of some of the important learnings and lessons I learnt about design and web</div>'+
+'<div class="intro">This is a list of some of the important learnings and lessons I learnt about design and web.This is a list of some of the important learnings and lessons I learnt about design and web.This is a list of some of the important learnings and lessons I learnt about design and web.This is a list of some of the important learnings and lessons I learnt about design and web</div>'+
 // '<h4>Leela Gutta</h4>'
 '<div class="contactList"<ul>'+
-	'<li >LinkedIn</li>'+
-	'<li >Twitter</li>'+
-	'<li>Website</li>'+
+	'<li><a target="_blank" href="https://www.linkedin.com/in/leelagutta">LinkedIn</a></li>'+
+	'<li><a target="_blank" href="https://twitter.com/DhanyaGutta">Twitter</a></li>'+
+	'<li><a target="_blank" href="https://dhanyagutta.com">Website</a></li>'+
 	'<li >Email</li></ul></div>';
 
 var designList = 
 '<div class="heading"><h1>DESIGN 101</h1></div>'+
 '<div class="line"></div>'+
 '<div class="list"><ul>'+
-'<li>What is Design?</li>'+
-'<li>How is Design important in Tech?</li>'+
-'<li>Design designation titles and differences</li>'+
 '<li>Design Principals</li>'+
-'<li><a href="http://blog.crew.co/native-app-vs-web-app/">'+
-'Native app Vs Web app</a></li>'+
-'<li><a href="https://css-tricks.com/design-systems-building-future/">'+
+'<li>Importance of design in Tech</li>'+
+'<li><a target="_blank" href="https://css-tricks.com/design-systems-building-future/">'+
 'Design Systems</a></li>'+
-'<li><a href="http://www.designyourway.net/blog/resources/understanding-design-and-development-jobs-titles/">'+
-'understanding-design-and-development-jobs-titles</a></li>'+
+'<li><a target="_blank" href="http://blog.crew.co/native-app-vs-web-app/">'+
+'Native app Vs Web app</a></li>'+
+'<li><a target="_blank" href="http://www.designyourway.net/blog/resources/understanding-design-and-development-jobs-titles/">'+
+'Understanding design & developement job titles</a></li>'+
 '</ul></div>'
 
 var uxDesign=
@@ -30,9 +28,9 @@ var uxDesign=
 '<li>What is UX design?</li>'+
 '<li>UX is not common sense</li>'+
 '<li>Difference between UX and UI design</li>'+
-'<li><a href="https://medium.com/@wnialloconnor/how-to-build-an-experience-map-5e55b7ee4f32#.h603ciorw">'+
+'<li><a target="_blank"  href="https://medium.com/@wnialloconnor/how-to-build-an-experience-map-5e55b7ee4f32#.h603ciorw">'+
 'How to build an experience map</a></li>'+
-'<li><a href="https://www.smashingmagazine.com/2011/09/the-s-m-a-r-t-user-experience-strategy/">'+
+'<li><a target="_blank"  href="https://www.smashingmagazine.com/2011/09/the-s-m-a-r-t-user-experience-strategy/">'+
 'SMART userExperience Strategy</a></li></ul></div>';
 
 var colorList = 
