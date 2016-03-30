@@ -93,15 +93,15 @@ footer li{
 
 @font-face {
     font-family: Consolas;
-    src: url(../Consolas.ttf);
+    src: url(../asserts/Consolas.ttf);
 }
 
 @font-face {
     font-family: hind;
-    src: url(../Hind-Regular.ttf);
+    src: url(../asserts/Hind-Regular.ttf);
 }
 
 @font-face{
 	font-family: OpenSans;
-	src: url(../OpenSans-Regular.ttf);
+	src: url(../asserts/OpenSans-Regular.ttf);
 }
