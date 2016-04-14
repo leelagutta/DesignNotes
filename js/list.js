@@ -1,11 +1,5 @@
 var introList=
-'<div class="intro">This is a list of some of the important learnings and lessons I learnt about design and web.This is a list of some of the important learnings and lessons I learnt about design and web.This is a list of some of the important learnings and lessons I learnt about design and web.This is a list of some of the important learnings and lessons I learnt about design and web</div>'+
-// '<h4>Leela Gutta</h4>'
-'<div class="contactList"<ul>'+
-	'<li><a target="_blank" href="https://www.linkedin.com/in/leelagutta">LinkedIn</a></li>'+
-	'<li><a target="_blank" href="https://twitter.com/DhanyaGutta">Twitter</a></li>'+
-	'<li><a target="_blank" href="https://dhanyagutta.com">Website</a></li>'+
-	'<li >Email</li></ul></div>';
+'<div class="intro"><p>These are few of the resources I always want to have in handy. This list will help anyone looking to kickstart their career in design in Tech.</p>';
 
 var designList = 
 '<div class="heading"><h1>DESIGN 101</h1></div>'+
