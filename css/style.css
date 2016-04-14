@@ -2,7 +2,7 @@
 
 .box:first-child ~ .box {border-top: 6px solid black;box-sizing:border-box;}
 
-h1{font-size: 200%;font-family: hind;margin: 0;}
+h1{font-size: 200%;font-family: hind;margin: 0;text-transform: uppercase;}
 
 h4 {font-size: 120%;font-family: hind; }
 
@@ -15,10 +15,11 @@ header{font-size: 400%;}
 ul{padding-left: 0;margin-top: 7px;}
 
 li{
-	font-family: OpenSans;
+	font-family: hind;
 	font-size: 100%;
 	list-style-type: none;
 	width: 100% !important;
+ text-transform: uppercase;
 }
 
 .box{height: 45vh;}
