@@ -57,7 +57,7 @@ body{
 }
 
 
-@media all and (max-width:800px){
+@media all and (max-width:1023px){
  
 .col-1 {width: 25%;}
 .col-2 {width: 33.33%;}
@@ -79,7 +79,7 @@ body{
 .col-11 + .col-1{width: 100% !important;}
 }
 
-@media all and (max-width:650px){
+@media all and (max-width:699px){
 .col-1 {width: 33.33%;}
 .col-2 {width: 50%;}
 .col-3 {width: 100%;}

@@ -113,8 +113,25 @@ var frameworkList=
 'Local WebServer Setup</a></li>'
 '<li>BootStrap</li></ul></div>';
 
+var contactList='<ul>'+
+	'<li><a target="_blank" href="https://www.linkedin.com/in/leelagutta"><img src="asserts/linkedin.png" height="30" width="30" alt="LinkedIn"></a></li>'+
+	'<li><a target="_blank" href="https://twitter.com/DhanyaGutta"><img src="asserts/twitter_bird.png" height="30" width="30" alt="Twitter"></a></li>'+
+	'<li><a target="_blank" href="https://dhanyagutta.com"><img src="asserts/email.png" height="30" width="30" alt="email"></a></li>'+
+	'</ul>';
+
 var list =[introList,designList,uxDesign,colorList,typeList,webList,htmlList,cssList,jsList,frameworkList];  
 
 
 
-
+ $(".box:nth-child(1)").append(list[0]); 
+	$(".box:nth-child(2)").append(list[1]); 
+    $(".box:nth-child(3)").append(list[2]); 
+	$(".box:nth-child(4)").append(list[3]); 
+	$(".box:nth-child(5)").append(list[4]);
+	$(".box:nth-child(6)").append(list[5]); 
+	$(".box:nth-child(7)").append(list[6]); 
+    $(".box:nth-child(8)").append(list[7]); 
+	$(".box:nth-child(9)").append(list[8]); 
+	$(".box:nth-child(10)").append(list[9]); 
+	$(".box:nth-child(11)").append(list[10]);   
+	$(".contactList").append(contactList);

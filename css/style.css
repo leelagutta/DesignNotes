@@ -1,14 +1,7 @@
-[class*='col-'] {
-  /*background-color: #FFDCDC;*/
-  overflow: hidden;
-}
+[class*='col-'] {overflow: hidden;}
 
-.box:first-child ~ .box {
-  border-top: 6px solid black;
-  box-sizing:border-box;
-}
+.box:first-child ~ .box {border-top: 6px solid black;box-sizing:border-box;}
 
-	
 h1{font-size: 200%;font-family: hind;margin: 0;}
 
 h4 {font-size: 120%;font-family: hind; }
@@ -51,23 +44,23 @@ li{
 	margin-top: 3vh;
 }
 
+.footer-line{
+	margin-top: 5vh;
+	border-top: 1px solid lightgrey;
+	width: 100%;
+}
+
 .list li:hover{background-color: #f7286c;}
+
+@media all and (max-width:1023px){
+
+	header{font-size: 350%;}
+
+	}
 
 footer{
 	text-align: center;
-	font-size: 200%;
 	height: 15vh;
-	outline: 2px solid lightgrey;
-	font-family: hind;
-}
-
-footer li{
-	font-size: 50% !important;
-}
-
-@font-face {
-    font-family: Consolas;
-    src: url(../asserts/Consolas.ttf);
 }
 
 @font-face {
