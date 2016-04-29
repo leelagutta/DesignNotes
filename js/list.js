@@ -6,7 +6,7 @@ var designList =
 '<div class="line"></div>'+
 '<div class="list"><ul>'+
 '<li>Understanding what UX design is</li>'+
-'<li>Design and developement job titles</li>'+
+'<li>Design and development job titles</li>'+
 '<li><a target="_blank" href="https://css-tricks.com/design-systems-building-future/">'+
 'Design and its role in Technology</a></li>'+
 '<li><a target="_blank" href="http://blog.crew.co/native-app-vs-web-app/">'+
@@ -48,7 +48,7 @@ var colorList =
 '<div class="line"></div>'+
 '<div class="list"><ul>'+
 '<li>What is color?</li>'+
-'<li>UI gradiants</li>'+
+'<li>UI gradients</li>'+
 '<li>IOS colors</li>'+
 '<li>Color history</li>'+
 '<li>Color in web</li></ul></div>';
@@ -59,7 +59,7 @@ var typeList=
 '<div class="list"><ul>'+
 '<li>Understanding Type</li>'+
 '<li>Best Type pairings</li>'+
-'<li>Typography in Webdesign</li>'+
+'<li>Typography in Web design</li>'+
 '<li>Best books in typography</li>'+
 '<li>Typography in mobile</li></ul></div>';
 
@@ -72,16 +72,16 @@ var jsList=
 '<li>How does memory work in JS</li>'+
 '<li>Scopes and clousers</li>'+
 '<li>Design Patterns</li>'+
-'<li>Jquery methods</li></ul></div>';
+'<li>JQuery methods</li></ul></div>';
 
 var htmlcssList=
 '<div class="heading"><h1>Html & CSS</h1></div>'+
 '<div class="line"></div>'+
 '<div class="list"><ul>'+
 '<li>Cheat sheet for css selectors</a></li>'+
-'<li>Css cascasing rules</li>'+
+'<li>Css cascading rules</li>'+
 '<li>Css display</li>'+
-'<li>Css flexbox</li>'+
+'<li>Css flex-box</li>'+
 '<li>Animations</li>'+
 '<li>Box Model</li>'+
 '<li><a href="http://www.webdesignerdepot.com/2013/08/10-css-selectors-you-shouldnt-code-without/">10 useful Selectors</a></li>'+
