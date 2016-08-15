@@ -34,7 +34,7 @@ var researchTools=
 '<div class="line"></div>'+
 '<div class="list"><ul>'+
 '<li>Task Models</li>'+
-'<li>Conent Audit</li>'+
+'<li>Content Audit</li>'+
 '<li>SiteMaps</li>'+
 '<li><a target="_blank"  href="https://medium.com/@wnialloconnor/how-to-build-an-experience-map-5e55b7ee4f32#.h603ciorw">'+
 'How to build an experience map</a></li>'+
@@ -78,19 +78,23 @@ var htmlcssList=
 '<div class="heading"><h1>Html & CSS</h1></div>'+
 '<div class="line"></div>'+
 '<div class="list"><ul>'+
-'<li>Cheat sheet for css selectors</a></li>'+
 '<li>Css cascading rules</li>'+
-'<li>Css display</li>'+
-'<li>Css flex-box</li>'+
-'<li>Animations</li>'+
 '<li>Box Model</li>'+
+'<li>Css flex-box</li>'+
+'<li>Css display</li>'+
+'<li>Animations</li>'+
+'<li><a href="http://learnlayout.com/toc.html">CSS Layout</a></li></ul></div>';	
+
+var cssSelectors=
+'<div class="heading"><h1>Css Selectors</h1></div>'+
+'<div class="line"></div>'+
+'<div class="list"><ul>'+
+'<li>Cheat sheet for css selectors</a></li>'+
 '<li><a href="http://www.webdesignerdepot.com/2013/08/10-css-selectors-you-shouldnt-code-without/">10 useful Selectors</a></li>'+
 '<li><a href="https://css-tricks.com/how-nth-child-works/">How n-th child works</a></li>'+
 '<li><a href="https://css-tricks.com/useful-nth-child-recipies/">n-th child receipes</a></li>'+
-'<li><a href="https://css-tricks.com/child-and-sibling-selectors/">'+
-'child-and-sibling-selectors</a></li>'+
-'<li><a href="http://learnlayout.com/toc.html">'+
-'CSS Layout</a></li></ul></div>';	
+'<li><a href="https://css-tricks.com/child-and-sibling-selectors/">child-and-sibling-selectors</a></li></ul></div>';
+
 
 var diyworkList=
 '<div class="heading"><h1>DIY</h1></div>'+
@@ -111,7 +115,7 @@ var frameworkList =
 '<li>Angular JS</li>'+
 '<li>Es Lint</li>'+
 '<li><a href="https://ole.michelsen.dk/blog/setup-local-web-server-apache-php-osx-yosemite.html">'+
-'Testing</a></li>'
+'Testing</a></li>'+
 '<li>BootStrap</li></ul></div>';
 
 
@@ -122,11 +126,11 @@ var contactList='<ul>'+
 	'<li><a target="_blank" href="https://dhanyagutta.com"><img src="asserts/medium.png" height="30" width="30" alt="medium"></a></li>'+
 	'</ul>';
 
-var list =[introList,designList,responsiveList,researchTools,colorList,typeList,htmlcssList,jsList,diyworkList,frameworkList];  
+var list =[introList,designList,responsiveList,researchTools,colorList,typeList,htmlcssList,cssSelectors,jsList,diyworkList,frameworkList];  
 
 
 
- $(".box:nth-child(1)").append(list[0]); 
+    $(".box:nth-child(1)").append(list[0]); 
 	$(".box:nth-child(2)").append(list[1]); 
     $(".box:nth-child(3)").append(list[2]); 
 	$(".box:nth-child(4)").append(list[3]); 
@@ -136,5 +140,6 @@ var list =[introList,designList,responsiveList,researchTools,colorList,typeList,
     $(".box:nth-child(8)").append(list[7]); 
 	$(".box:nth-child(9)").append(list[8]); 
 	$(".box:nth-child(10)").append(list[9]); 
-	$(".box:nth-child(11)").append(list[10]);   
+	$(".box:nth-child(11)").append(list[10]);
+	$(".box:nth-child(12)").append(list[11]);   
 	$(".contactList").append(contactList);
